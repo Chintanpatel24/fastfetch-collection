@@ -1,0 +1,157 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "general":{},
+    "logo": {
+        "source": "/home/aka-star-pilot/rne.jpg",  //simage source here
+        "type": "iterm",                           //logo type (i personally recommend iterm)
+        "padding": {                               //adjust the image position 
+            "top": 2,
+            "left": 1,
+            "right": 1,
+            "bottom": 1
+        }
+    },
+    "display": {
+        "separator": ": ",     // Separator between keys and values
+        "constants":[                                               // Completing the box drawing
+        "        \u001b[37m│"
+        ],
+        "color": {
+        "keys": "green",    // Key color
+        "title": "magenta"   // Title color   //it seems like it don't work so try adding colors by id's in format
+        }
+
+    },
+    "modules": [                         //change key colors using names like "magenta", you can also set color id's in "key" value of module (like the title)
+        "break",                         //look format values typing in your terminal: fastfetch -h <module>-format 
+        {
+            "type": "custom",
+            "format": "\u001b[35m┏━━━━━┓\u001b[37m┌─────────────────────────────────────────────────────┐"
+        },
+        {
+            "type": "title",
+            "key": "┃    ┃\u001b[37m│",
+            "keyColor": "magenta",
+            "format":"\u001b[35m{user-name}{at-symbol-colored}{host-name-colored}                       {$1}"
+        },
+        {
+
+            "type": "custom",
+            "format": "\u001b[35m┗━━━━━┛\u001b[37m└─────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[32m┏━━━━━┓\u001b[37m┌─────────────────────────────────────────────────────┐"
+        }, 
+        {
+            "type": "os",
+            "key": "┃ OS ┃\u001b[37m│",
+            "keyColor": "green",
+            "format": "{name} {version} {arch}              {$1}"
+        },
+        {
+            "type": "kernel",
+            "key": "┃│ ├ ┃\u001b[37m│",
+            "keyColor": "green",
+            "format": "{sysname} {release}                               {$1}"
+        },
+        {
+            "type": "shell",
+            "key": "┃│ ├ ┃\u001b[37m│",
+            "keyColor": "green",
+            "format": "{process-name} {version}                                    {$1}"
+        },
+        {
+            "type": "terminal",
+            "key": "┃└ └ ┃\u001b[37m│",
+            "keyColor": "green",
+            "format": "{process-name} {version}                             {$1}"
+        },
+        {
+            "type": "host",
+            "key": "┃󰽟 PC ┃\u001b[37m│",
+            "keyColor": "blue",
+            "format": "{name}                      {$1}"
+        },
+        {
+            "type": "cpu",
+            "key": "┃│ ├ ┃\u001b[37m│",
+            "keyColor": "blue",
+            "format": "{name} [{cores-online}] {freq-max}     {$1}"
+        },
+        {
+            "type": "gpu",
+            "key": "┃│ ├ ┃\u001b[37m│",
+            "keyColor": "blue",
+            "format": "{vendor} {type} {shared-total}                          {$1}"
+
+        },
+        {
+            "type": "memory",
+            "key": "┃│ ├󰽋 ┃\u001b[37m│",
+            "keyColor": "blue",
+            "format": "{used}/{total} [{percentage}]                    {$1}"
+        },
+        {
+            "type": "monitor",
+            "key": "┃└ └󰍹 ┃\u001b[37m│",
+            "keyColor": "blue",
+            "format": "{width}/{height} px @ {refresh-rate} Hz                     {$1}"
+        },
+        {
+            "type": "de",
+            "key": "┃ DE ┃\u001b[37m│",
+            "keyColor": "yellow",
+            "format": "{pretty-name} {version}                             {$1}"
+        },
+        {
+            "type": "wmtheme",
+            "key": "┃│ ├ ┃\u001b[37m│",
+            "keyColor": "yellow",
+            "format": "{result}                       {$1}"
+        },
+        {
+            "type": "theme",
+            "key": "┃│ ├ ┃\u001b[37m│",
+            "keyColor": "yellow",
+            "format": "{theme1}{theme2}               {$1}"
+        },
+        {
+            "type": "icons",
+            "key": "┃│ ├ ┃\u001b[37m│",
+            "keyColor": "yellow",
+            "format": "{icons1}{icons2}              {$1}"
+        },
+        {
+            "type": "font",
+            "key": "┃└ └ ┃\u001b[37m│",
+            "keyColor": "yellow",
+            "format": "{font2}        {$1}"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[33m┗━━━━━┛\u001b[37m└─────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[31m┏━━━━━┓\u001b[37m┌─────────────────────────────────────────────────────┐"
+        },
+        {
+            "type": "command",              //Set your own song via text output ignoring the player and media modules (like neofetch)                        
+            "key": "┃    ┃\u001b[37m│",
+            "keyColor": "red",
+            "text": "echo 中森明菜 - UNBALANCE+BALANCE - NORMA JEAN ",
+            "format":"{result}  {$1}"
+
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[31m┗━━━━━┛\u001b[37m└─────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 38,
+            "symbol": "diamond"        // change shapes like circle, square, etc
+        } 
+    ]
+}
