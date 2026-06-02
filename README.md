@@ -240,6 +240,22 @@
   
 </tr>
 
+<tr>
+  
+<td>
+  
+<img width="980" height="414" alt="reddit" src="https://github.com/user-attachments/assets/db652032-01be-4726-a6a9-a8c968795328" />
+
+</td>
+
+<td>
+  
+## [config.jsonc](configs/8.jsonc)
+
+</td>
+  
+</tr>
+
 </table>
 
 ---
