@@ -1,0 +1,165 @@
+{
+   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+   "logo": {
+"type": "kitty",
+"source": "~/.config/fastfetch/SUA_IMAGEM_AQUI.png",
+"width": 50,
+"padding": {
+"top": 2,
+"left": 2
+}
+   },
+   "display": {
+"separator": " ➜  ",
+"color": "white",
+"percent": {
+"type": 2
+},
+"key": {
+"width": 20
+}
+   },
+   "modules": [
+{ "type": "custom", "format": "" },
+{ "type": "custom", "format": "" },
+{ "type": "custom", "format": "" },
+{ "type": "custom", "format": "" },
+{
+"type": "datetime",
+"key": "󰃭  Dia e Hora",
+"format": "{1}/{3}/{11} - {14}:{17}",
+"keyColor": "cyan"
+},
+{
+"type": "command",
+"key": "󰖐  Clima Atual",
+"text": "curl -s 'wttr.in/SUA_CIDADE_AQUI?format=%t' | xargs",
+"keyColor": "cyan"
+},
+"break",
+{
+"type": "os",
+"key": "󰣇 Distro",
+"keyColor": "blue"
+},
+{
+"type": "kernel",
+"key": " Kernel",
+"keyColor": "blue"
+},
+{
+
+"type": "de",
+"key": " DE",
+"keyColor": "blue"
+},
+{
+"type": "uptime",
+"key": "󱎫 Uptime",
+"keyColor": "blue"
+},
+"break",
+{
+"type": "cpu",
+"key": " Processador",
+"temp": true,
+"keyColor": "yellow"
+},
+{
+"type": "gpu",
+"key": "󰢮 Placa Vídeo",
+"temp": true,
+"keyColor": "yellow"
+},
+{
+"type": "board",
+"key": "󰢮 Motherboard",
+"keyColor": "yellow"
+},
+{
+"type": "bios",
+"key": "󰾲 BIOS",
+"keyColor": "yellow"
+},
+{
+"type": "memory",
+"key": "󰍛 RAM",
+"keyColor": "yellow"
+},
+"break",
+{
+"type": "disk",
+"key": "󱛟 NVMe 1",
+"folders": "/",  
+"keyColor": "cyan"
+},
+{
+"type": "disk",
+"key": "󱛟 NVMe 2",
+"folders": "/mnt/nvme2tb",  
+"keyColor": "cyan"
+},
+{
+"type": "disk",
+"key": "󱛟 NVMe 3",
+"folders": "/mnt/kingston1tb",  
+"keyColor": "cyan"
+},
+"break",
+{
+"type": "display",
+"key": "󰍹 Monitor",
+"keyColor": "green"
+},
+{
+"type": "shell",
+"key": "󱆃 Shell",
+"keyColor": "green"
+},
+{
+"type": "terminal",
+"key": " Terminal",
+"keyColor": "green"
+},
+{
+"type": "terminalfont",
+"key": " Fonte",
+"keyColor": "green"
+},
+"break",
+{
+"type": "localip",
+"key": "󰈀 Ethernet",
+"showIpv4": true,
+"keyColor": "white"
+},
+{
+"type": "wifi",
+"key": " WiFi",
+"keyColor": "white"
+},
+{
+"type": "bluetooth",
+"key": " Bluetooth",
+"keyColor": "white"
+},
+"break",
+{
+"type": "sound",
+"key": "󱍚 Dispositivo",
+"keyColor": "red"
+},
+{
+"type": "media",
+"key": "󰝚 Ouvindo",
+"format": "{3} ➜ {1}",
+"keyColor": "red"
+},
+"break",
+{
+"type": "colors",
+"key": " Cores",
+"symbol": "circle"
+},
+   ]
+}
