@@ -256,6 +256,22 @@
   
 </tr>
 
+<tr>
+  
+<td>
+  
+<img width="980" height="414" alt="ror" src="https://github.com/user-attachments/assets/a7cfc29a-4116-43fe-abd7-f17db33c6834" />
+
+</td>
+
+<td>
+  
+## [config.jsonc](configs/rorfetch)
+
+</td>
+  
+</tr>
+
 </table>
 
 ---
