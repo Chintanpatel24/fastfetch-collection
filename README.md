@@ -224,6 +224,22 @@
 
 </tr>
 
+<tr>
+  
+<td>
+  
+<img width="980" height="414" alt="Terminal" src="https://github.com/user-attachments/assets/aafaef64-550f-4d70-a641-f69379ad14f9" />
+
+</td>
+  
+<td>
+  
+## [config.jsonc](configs/win-11-config)
+
+</td>
+  
+</tr>
+
 </table>
 
 ---
