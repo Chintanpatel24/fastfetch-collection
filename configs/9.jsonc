@@ -1,3 +1,5 @@
+// Credit: https://github.com/esplatanukis2-wq/My-Fastfetch-config
+
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "general":{},
