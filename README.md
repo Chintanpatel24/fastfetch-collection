@@ -272,6 +272,22 @@
   
 </tr>
 
+<tr>
+  
+<td>
+  
+<img width="980" height="414" alt="good" src="https://github.com/user-attachments/assets/e311eb13-713d-4c9b-8cce-c9026bd02d27" />
+
+</td>
+
+<td>
+  
+## [config.jsonc](configs/9.jsonc)
+
+</td>
+  
+</tr>
+
 </table>
 
 ---
