@@ -288,6 +288,22 @@
   
 </tr>
 
+<tr>
+  
+<td>
+
+<img width="980" height="414" alt="10" src="https://github.com/user-attachments/assets/ebd49018-94a6-4e88-9854-c70b85841225" />
+
+</td>
+
+<td>
+  
+## [config.jsonc](configs/10.jsonc)
+
+</td>
+  
+</tr>
+
 </table>
 
 ---
