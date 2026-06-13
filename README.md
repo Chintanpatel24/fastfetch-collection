@@ -304,6 +304,22 @@
   
 </tr>
 
+<tr>
+  
+<td>
+
+<img width="980" height="414" alt="preview" src="https://github.com/user-attachments/assets/5e05cd2e-8e9c-4931-88e1-a2c71551bbfb" />
+
+</td>
+
+<td>
+  
+## [config.jsonc](configs/aayushchalise)
+
+</td>
+  
+</tr>
+
 </table>
 
 ---
