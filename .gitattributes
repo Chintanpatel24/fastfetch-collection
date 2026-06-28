@@ -1,1 +1,1 @@
-*.jsonc linguist-language=JSONC linguist-detectable=true
+config.jsonc linguist-language=JavaScript linguist-detectable=true
