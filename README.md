@@ -331,10 +331,4 @@
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=Chintanpatel24%2Ffastfetch-collection&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Chintanpatel24/fastfetch-collection&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Chintanpatel24/fastfetch-collection&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Chintanpatel24/fastfetch-collection&type=date&legend=top-left" />
- </picture>
-</a>
+[![RepoStars](https://repostars.dev/api/embed?repo=Chintanpatel24%2Fawesome-fastfetch-collection&theme=dark)](https://repostars.dev/?repos=Chintanpatel24%2Fawesome-fastfetch-collection&theme=dark)
