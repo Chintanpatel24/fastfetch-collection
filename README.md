@@ -322,22 +322,23 @@
 
 </table>
 
+<tr>
+  
+<td>
+  
+<img width="980" height="414" alt="preview" src="https://github.com/user-attachments/assets/62ab0d46-3953-4753-ad74-aac815625c83" />
+
+</td>
+  
+<td>
+  
 ## [config.jsonc](configs/taiyo-theme/config.jsonc)
 
 </td>
   
 </tr>
 
-<tr>
-  
-<td>
-
-<img width="980" height="414" alt="preview" src="https://github.com/user-attachments/assets/62ab0d46-3953-4753-ad74-aac815625c83" />
-
-</td>
-
-<td>
-
+</table>
 
 ---
 
