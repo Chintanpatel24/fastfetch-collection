@@ -324,7 +324,8 @@
   
 <td>
 
-<img width="980" height="414" alt="preview" src="https://github.com/user-attachments/assets/62ab0d46-3953-4753-ad74-aac815625c83" />
+<img width="689" height="414" alt="output" src="https://github.com/user-attachments/assets/a9fc403f-c949-4f34-af9d-86513c05e07b" />
+
 
 </td>
 
