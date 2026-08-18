@@ -322,6 +322,20 @@
 
 </table>
 
+## [config.jsonc](configs/taiyo-theme)
+
+</td>
+  
+</tr>
+
+<tr>
+  
+<td>
+
+<img width="1000" height="601" alt="preview" src="https://github.com/user-attachments/assets/62ab0d46-3953-4753-ad74-aac815625c83" />
+
+
+
 ---
 
 - ### Pokémon card collection : [Tap to view](https://www.kaggle.com/datasets/ellimaaac/pokemon-tcg-all-image-cards) (20,000+ cards)
