@@ -317,6 +317,23 @@
 ## [config.jsonc](configs/aayushchalise)
 
 </td>
+
+</tr>
+
+<tr>
+  
+<td>
+
+<img width="689" height="414" alt="output" src="https://github.com/user-attachments/assets/a9fc403f-c949-4f34-af9d-86513c05e07b" />
+
+
+</td>
+
+<td>
+  
+## [config.jsonc](configs/taiyo-theme/config.jsonc)
+
+</td>
   
 </tr>
 
