@@ -322,7 +322,7 @@
 
 </table>
 
-## [config.jsonc](configs/taiyo-theme)
+## [config.jsonc](configs/taiyo-theme/config.jsonc)
 
 </td>
   
@@ -334,6 +334,9 @@
 
 <img width="1000" height="601" alt="preview" src="https://github.com/user-attachments/assets/62ab0d46-3953-4753-ad74-aac815625c83" />
 
+</td>
+
+<td>
 
 
 ---
